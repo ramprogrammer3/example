@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMl form tag studies in details</title>
+</head>
+<body>
+    <div>
+        <h1>Now we studies fieldset and legend tage here</h1>
+        <form action="">
+            <fieldset>
+                <legend>Personalia:</legend>
+                <label for="firstname">First Namae: </label>
+                <input type="text" name="firstname" id="firstname"><br><br>
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname"><br><br>
+                <input type="submit" value="submit">
+            </fieldset>
+            <label for="browsers">Select favourite browser:</label>
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">   
+                <option value="Opera">   
+                <option value="Safari">   
+            </datalist>
+        </form>
+    </div>
+</body>
+</html>
